@@ -1,4 +1,8 @@
-# Nox Misc
+# Miscellaneous Formulae
+
+## What do I find here?
+
+* `llvm@12.0.0`, for all your boringssl FIPS needs.
 
 ## How do I install these formulae?
 
