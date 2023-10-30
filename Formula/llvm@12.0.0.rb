@@ -9,8 +9,9 @@ class LlvmAT1200 < Formula
 
   bottle do
     root_url "https://github.com/nox/homebrew-misc/releases/download/llvm@12.0.0-12.0.0_1"
-    sha256 cellar: :any,                 ventura:      "0f82bc2c81440f1399e36b5f871ba5155ab7a873072d0850216a827f8f0bd5be"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "95c08a989ecb1ebf351e0e45d25c72742f19287eccc49af2a6f1c3a20854f35f"
+    sha256 cellar: :any,                 arm64_ventura: "a7ac7caefcfaab327af948a0476f80462b659095ac108ce35af685ac9842768f"
+    sha256 cellar: :any,                 ventura:       "0f82bc2c81440f1399e36b5f871ba5155ab7a873072d0850216a827f8f0bd5be"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:  "95c08a989ecb1ebf351e0e45d25c72742f19287eccc49af2a6f1c3a20854f35f"
   end
 
   # Clang cannot find system headers if Xcode CLT is not installed
